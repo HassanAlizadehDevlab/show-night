@@ -9,8 +9,10 @@ The goal is showcase object oriented programming in Kotlin and Android including
 - Dependency Injection with [Daggger 2](https://github.com/google/dagger)
 - Networking with [Retrofit 2](https://github.com/square/retrofit)
 - De/Serialization with [Gson](https://github.com/google/gson)
+- Image loading with [Glide](https://github.com/bumptech/glide)
 - Writing code using [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) and [MVVM](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel) pattern
 - Using [Kotlin](https://developer.android.com/kotlin)
+- Using Android Jetpack Components: [Android KTX](https://developer.android.com/kotlin/ktx.html), [Lifecycles](https://developer.android.com/topic/libraries/architecture/lifecycle), [LiveData](https://developer.android.com/topic/libraries/architecture/livedata), [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel), [Room](https://developer.android.com/topic/libraries/architecture/room), [Fragments](https://developer.android.com/guide/components/fragments)
 
 # Application and Features
 
