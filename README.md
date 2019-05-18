@@ -9,5 +9,16 @@ The goal is showcase object oriented programming in Kotlin and Android including
 - Dependency Injection with [Daggger 2](https://github.com/google/dagger)
 - Networking with [Retrofit 2](https://github.com/square/retrofit)
 - De/Serialization with [Gson](https://github.com/google/gson)
-- Writing code using [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+- Writing code using [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) and [MVVM](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel) pattern
 - Using [Kotlin](https://developer.android.com/kotlin)
+
+# Application and Features
+
+A simple Album application that using [JsonPlaceHolder REST API](https://jsonplaceholder.typicode.com/)
+
+This simple app is able to:
+
+- Load list of albums
+- Load list of images for each album
+- Load full size image
+
