@@ -3,5 +3,21 @@
  */
 
 dependencies {
-    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation project(':domain')
+
+    kapt libraries.dagger.processor
+    kapt libraries.dagger.compiler
+    kapt libraries.room.compiler
+
+    implementation libraries.kotlin.kotlin
+    implementation libraries.android.core_ktx
+    implementation libraries.dagger.android
+    implementation libraries.room.runtime
+    implementation libraries.room.rxJava
+    implementation libraries.retrofit.retrofit
+    implementation libraries.retrofit.converterGson
+    implementation libraries.retrofit.rxjavaAdapter
+    implementation libraries.okHttp.logging
+    implementation libraries.rx.java
+    implementation libraries.rx.android
 }
