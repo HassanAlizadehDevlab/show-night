@@ -3,5 +3,26 @@
  */
 
 dependencies {
-    implementation 'androidx.appcompat:appcompat:1.0.2'
+    def libraries = rootProject.ext.libraries
+
+    implementation project(':domain')
+
+    kapt libraries.dagger.processor
+    kapt libraries.dagger.compiler
+    kapt libraries.android.glideCompiler
+    implementation libraries.kotlin.kotlin
+    implementation libraries.android.glide
+    implementation libraries.android.liveData
+    implementation libraries.android.viewmodel
+    implementation libraries.android.supportDesign
+    implementation libraries.android.constraintLayout
+    implementation libraries.android.androidxAppCompat
+    implementation libraries.android.lifecycleExtensions
+    implementation libraries.android.archComponentsStreams
+    implementation libraries.rx.java
+    implementation libraries.rx.android
+    implementation libraries.dagger.android
+    implementation libraries.dagger.support
+    implementation libraries.gson
+    implementation libraries.okHttp.okHttp
 }
