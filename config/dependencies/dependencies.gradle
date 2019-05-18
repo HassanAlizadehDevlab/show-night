@@ -2,7 +2,7 @@
  * Define all dependencies for all modules.
  */
 
-allProjects {
+allprojects {
     repositories {
         google()
         jcenter()
