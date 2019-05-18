@@ -3,5 +3,11 @@
  */
 
 dependencies {
-    implementation 'androidx.appcompat:appcompat:1.0.2'
+    def libraries = rootProject.ext.libraries
+
+    implementation libraries.kotlin.kotlin
+    implementation libraries.dagger.android
+    implementation libraries.rx.java
+    implementation libraries.gson
+    implementation libraries.retrofit.retrofit
 }

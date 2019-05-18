@@ -3,6 +3,8 @@
  */
 
 dependencies {
+    def libraries = rootProject.ext.libraries
+
     implementation project(':domain')
 
     kapt libraries.dagger.processor
