@@ -1,0 +1,20 @@
+/**
+ * Define the signing configuration for this project.
+ * */
+
+android {
+    signingConfigs {
+        release {
+            storeFile rootProject.file('config/android/signing/keystore/sheypoor.keystore')
+            storePassword 'showNight'
+            keyAlias 'ShowNight'
+            keyPassword 'showNight'
+        }
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+        }
+    }
+}
